@@ -6,7 +6,7 @@ const masterKegList = [
         name:"Light Beer",
         price:"5.00",
         content:"6.0",
-        description:"This light beer is soothing and refreshing"
+        description:"This light beer is soothing and refreshing",
   },
   {
         name:"IPA",
