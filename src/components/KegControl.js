@@ -35,6 +35,11 @@ class KegControl extends React.Component {
   handleBuyAPint = () => {
     const haveAdrink = this.state.masterKegList.map((keg) => {
       if (keg.id === this.state.selectedKeg.id){
+        if(keg.pints <= 1 ){
+          return {...keg,
+          pints: "0"
+          }
+        }
       return {
         ...keg,
           pints: keg.pints - 1, 
