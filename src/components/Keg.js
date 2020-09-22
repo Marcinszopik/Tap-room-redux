@@ -8,7 +8,7 @@ function Keg(props){
       <h2>This keg is named {props.name}</h2>
       <h3> The alcohol content is {props.content}</h3>
       <h3> Price per pint is  {props.price}</h3>
-      <h3> How many pints is left {props.pints}</h3>
+      <h3> Pints left {props.pints}</h3>
       <p><em>{props.description}</em></p>
       <hr/>
       </div>
