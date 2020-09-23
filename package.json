@@ -30,5 +30,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/plugin-transform-modules-commonjs": "^7.6.0",
+    "jest": "^24.9.0"
   }
 }
