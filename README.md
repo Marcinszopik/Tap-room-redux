@@ -1,6 +1,18 @@
 
 ***TAP-BAR-REDUX***
 
+Created by
+
+- Marcin Szopik
+- szopiks@yahoo.com
+- 09.24.2020
+
+***Descriptions***
+
+ Application handles Redux (even if React can handle it locally).
+ Reducers tests thoroughly, and all tests are passing.
+ Action creators and constants are being used.
+
 
 
 
