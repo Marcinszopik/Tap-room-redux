@@ -3,11 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './components/App.js';
 import { createStore } from 'redux';
-import reducer from './reducers/keg-list-reducer';
+import rootReducer from './reducers/index';
 import * as serviceWorker from './serviceWorker';
 import { Provider } from 'react-redux';
 
-const store = createStore(reducer);
+const store = createStore(rootReducer);
 
 store.subscribe(() =>
   console.log(store.getState())
